@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion';
 import React, { FunctionComponent, useEffect, useState } from 'react';
-import { randomInt } from '../shared/randomInt.ts';
-import { GameRules } from '../shared/rules.ts';
+import { randomInt } from '../shared/randomInt';
+import { GameRules } from '../shared/rules';
 import styles from '../styles/Results.module.css';
 import styles2 from '../styles/Play.module.css';
-import Button from './Button.tsx';
+import Button from './Button';
 
 type ResultsProps = {
 	selected: number;

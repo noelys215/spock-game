@@ -1,7 +1,7 @@
 import { AnimateSharedLayout, motion } from 'framer-motion';
 import React, { FunctionComponent } from 'react';
 import styles from '../styles/Play.module.css';
-import Button from '../components/Button.tsx';
+import Button from '../components/Button';
 
 type PlayButtonProps = {
 	advanced: boolean;

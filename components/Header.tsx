@@ -5,6 +5,7 @@ import styles from '../styles/Header.module.css';
 type HeaderProps = {
 	advanced: boolean;
 	score?: number;
+	houseScore?: number;
 };
 
 export const Header: FunctionComponent<HeaderProps> = ({ advanced, score, houseScore }) => (

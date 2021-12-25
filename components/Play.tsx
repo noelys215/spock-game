@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { AnimatePresence } from 'framer-motion';
 import React, { FunctionComponent } from 'react';
 import styles from '../styles/Play.module.css';
-import PlayButtons from './PlayButtons.tsx';
+import PlayButtons from './PlayButtons';
 
 type PlayProps = {
 	advanced: boolean;
