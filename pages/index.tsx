@@ -29,7 +29,7 @@ export default function Home() {
 					{advancedMode ? 'Normal' : 'Advanced'} Mode
 				</div>
 				<div className="rules" onClick={() => setOpen(!open)}>
-					Rulles
+					Rules
 				</div>
 			</footer>
 			{selected >= 0 ? (
